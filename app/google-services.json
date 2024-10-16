@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503527313626",
+    "project_id": "easyreport-app-kotlin",
+    "storage_bucket": "easyreport-app-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503527313626:android:147f02ffc14bd655c655e3",
+        "android_client_info": {
+          "package_name": "com.example.easyreporttech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Irhd3Kj7Ra6hPKpI4qUQz08vyd5-VP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
