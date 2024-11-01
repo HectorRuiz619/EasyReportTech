@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Cambié el ID 'main' por un ID válido que exista en tu XML
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.toolbarRLAdmin)) { v, insets ->
+        // Configurar la barra de herramientas para adaptarse a las barras del sistema
+        ViewCompat.setOnApplyWindowInsetsListener(binding.toolbarRLAmin) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verFragmentoDashboard() {
-        val nombre_titulo = "Dashboard"
-        binding.TituloRLAdmin.text = nombre_titulo
+        val nombreTitulo = "Dashboard"
+        binding.TituloRLAdmin.text = nombreTitulo
 
         val fragment = Fragment_admin_dashboard()
         val fragmentTransaction = supportFragmentManager.beginTransaction()
@@ -55,8 +55,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verFragmentoCuenta() {
-        val nombre_titulo = "Mi cuenta"
-        binding.TituloRLAdmin.text = nombre_titulo
+        val nombreTitulo = "Mi cuenta"
+        binding.TituloRLAdmin.text = nombreTitulo
 
         val fragment = Fragment_admin_cuenta()
         val fragmentTransaction = supportFragmentManager.beginTransaction()

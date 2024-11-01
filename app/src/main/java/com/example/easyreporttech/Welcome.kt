@@ -23,7 +23,7 @@ class Welcome : AppCompatActivity() {
 
             override fun onFinish() {
                 // Cuando el temporizador termina, pasa a la MainActivity
-                val intent = Intent(this@Welcome, MainActivity::class.java)
+                val intent = Intent(this@Welcome, Elegir_rol::class.java)
                 startActivity(intent)
                 finishAffinity() // Cierra todas las actividades anteriores
             }
