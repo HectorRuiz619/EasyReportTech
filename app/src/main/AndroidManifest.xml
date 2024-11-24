@@ -13,9 +13,11 @@
         android:theme="@style/Theme.EasyReportTech"
         tools:targetApi="31">
         <activity
+            android:name=".Administrador.Registrar_Admin"
+            android:exported="false" />
+        <activity
             android:name=".Elegir_rol"
-            android:exported="false"
-        />
+            android:exported="false" />
         <activity
             android:name=".Welcome"
             android:exported="true">
