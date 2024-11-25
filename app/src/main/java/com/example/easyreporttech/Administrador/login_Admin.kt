@@ -6,8 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.easyreporttech.R
+import com.example.easyreporttech.databinding.FragmentAdminCuentaBinding
 
 class login_Admin : AppCompatActivity() {
+
+    private lateinit var binding: FragmentAdminCuentaBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
