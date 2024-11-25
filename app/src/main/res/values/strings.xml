@@ -17,8 +17,12 @@
     <string name="Et_password_admin">Contraseña</string>
     <string name="Et_R_password_admin">Repita la Contraseña</string>
     <string name="Btn_registrar_admin">Registrarme</string>
+    <string name="Txt_tengo_cuenta">Tengo una Cuenta</string>
 
     <string name="CerrarSesionAdmin">Cerrar Sesion</string>
+
+    <string name="TxtLoginAdmin">Login Administrador</string>
+    <string name="Btn_login_admin">Ingresar </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

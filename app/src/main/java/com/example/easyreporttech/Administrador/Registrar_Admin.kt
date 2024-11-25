@@ -44,7 +44,9 @@ binding.IbRegresar.setOnClickListener {
         binding.BtnRegistrarAdmin.setOnClickListener {
             validarInformacion()
         }
-
+binding.TxtTengoCuenta.setOnClickListener {
+    startActivity(Intent(this@Registrar_Admin, login_Admin::class.java))
+}
 
      //   setContentView(R.layout.activity_registrar_admin)
     }
